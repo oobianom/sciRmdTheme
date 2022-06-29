@@ -15,7 +15,12 @@
 
 simplest default settings
 
-`sciRmdTheme::set.theme()`
+```{r,echo=TRUE}
+
+# simplest default settings
+sciRmdTheme::set.theme()
+
+```
 
 View demo: https://coursewhiz.org/mainsite/samples/sample2.html
 
