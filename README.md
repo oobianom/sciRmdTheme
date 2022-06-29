@@ -47,6 +47,15 @@ View demo: https://coursewhiz.org/mainsite/samples/sample1.html
 
 Download Rmd: https://coursewhiz.org/mainsite/samples/sample1.Rmd
 
+## Demo 3 - No sciRmdTheme theme applied!
+
+```{r,echo=TRUE}
+# Before sciRmdTheme customizations
+```
+
+View demo: https://coursewhiz.org/mainsite/samples/sample3.html
+
+Download Rmd: https://coursewhiz.org/mainsite/samples/sample3.Rmd
 
 
 # More information coming soon after publishing to CRAN
