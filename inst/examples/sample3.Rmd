@@ -1,0 +1,149 @@
+---
+title: "A Demo from the R package sciRmdTheme - Next Generation Responsive Themes for Markdown Scientific Writing"
+author: "Obinna N. Obianom"
+date: "6/29/2022"
+output:
+  html_document:
+    theme: default
+    toc: true
+    toc_depth: 3
+    toc_float: true
+---
+
+# Theme setting {.description}
+
+```{r,echo=TRUE}
+
+# No sciRmdTheme theme
+
+```
+
+Dignissim enim sit amet venenatis. Adipiscing bibendum est ultricies integer quis auctor elit sed vulputate. Ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia. Id porta nibh venenatis cras sed felis. Dictumst quisque sagittis purus sit amet volutpat consequat mauris nunc. Sed enim ut sem viverra aliquet eget sit amet tellus. Odio pellentesque diam volutpat commodo sed egestas egestas. Mauris nunc congue nisi vitae suscipit tellus mauris a diam. Neque sodales ut etiam sit amet nisl purus in mollis. Dis parturient montes nascetur ridiculus mus. Cursus turpis massa tincidunt dui ut ornare. Amet volutpat consequat mauris nunc. Quis varius quam quisque id diam vel quam elementum.
+
+# Images
+
+Aliquam malesuada bibendum arcu vitae elementum curabitur. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Sagittis purus sit amet volutpat consequat mauris. Vel eros donec ac odio. 
+
+## Image 1
+
+Tristique nulla aliquet enim tortor at auctor urna nunc. Sit amet nisl suscipit adipiscing bibendum est. Eu non diam phasellus vestibulum lorem. Tempor nec feugiat nisl pretium. Amet mauris commodo quis imperdiet massa tincidunt. Nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit. 
+
+```{r cars}
+summary(cars)
+```
+
+Augue ut lectus arcu bibendum at varius vel pharetra vel. Gravida rutrum quisque non tellus orci ac auctor. 
+
+## Image 2, 3 and 4
+
+Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Amet massa vitae tortor condimentum lacinia quis vel eros. Ut ornare lectus sit amet est placerat in. Risus in hendrerit gravida rutrum quisque non tellus orci ac. Viverra justo nec ultrices dui sapien eget. Elit scelerisque mauris pellentesque pulvinar pellentesque. Imperdiet nulla malesuada pellentesque elit eget gravida. Turpis massa sed elementum tempus egestas.
+
+```{r pressure2, echo=FALSE}
+
+plot(pressure)
+
+plot(mtcars)
+
+plot(cars)
+
+```
+
+
+# Tables 
+
+Quis varius quam quisque id diam. Donec enim diam vulputate ut pharetra. Nunc aliquet bibendum enim facilisis gravida neque convallis a cras. Vitae tempus quam pellentesque nec nam aliquam sem et tortor. Libero id faucibus nisl tincidunt. Ultrices tincidunt arcu non sodales neque sodales ut etiam. Ut placerat orci nulla pellentesque dignissim enim sit amet. Tempus quam pellentesque nec nam. Egestas purus viverra accumsan in. Eu ultrices vitae auctor eu augue ut lectus. Leo integer malesuada nunc vel risus commodo. 
+
+## Table 1 and 2
+
+| Column 1 | Column 2 | Column 3 | Column 4  |  Column 5 |
+|----------|----------|----------|-----------|-----------|
+| 1        | 23       | 1        |     45    |    6 - 12 |
+| 3        | 4        | 5        |    NA     |  4 -  5.5 |
+| 7        | 7        | 5        |   0       |  5 - 34   |
+
+| head1 | head2 | head3 | head4 |  head5 |
+|-------|-------|-------|-------|--------|
+| 1     | 23    | 1     |  A    |  AA    |
+| 3     | 4     | 5     |  B    |  BB    |
+| 7     | 7     | 5     |  C    |  CC    |
+
+
+
+## Table 3
+
+Eget magna fermentum iaculis eu non diam phasellus. In ornare quam viverra orci sagittis eu. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Mi in nulla posuere sollicitudin aliquam ultrices sagittis. Et malesuada fames ac turpis. Massa placerat duis ultricies lacus sed. Tortor vitae purus faucibus ornare. Bibendum arcu vitae elementum curabitur. Sit amet risus nullam eget felis eget nunc lobortis.
+
+
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
+
+
+## Table 4
+
+Maecenas accumsan lacus vel facilisis. Velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Magna fermentum iaculis eu non diam phasellus vestibulum lorem. Suspendisse faucibus interdum posuere lorem. Enim facilisis gravida neque convallis a cras semper auctor. Tristique senectus et netus et malesuada fames. Fringilla ut morbi tincidunt augue interdum velit. Pellentesque sit amet porttitor eget dolor morbi non. Scelerisque viverra mauris in aliquam sem fringilla ut morbi tincidunt. Tortor posuere ac ut consequat semper. Euismod nisi porta lorem mollis aliquam ut porttitor. Sit amet facilisis magna etiam tempor orci.
+
+
+## Text highlighting 
+
+Eu nisl nunc mi ipsum faucibus vitae aliquet. Nibh venenatis cras sed felis eget velit aliquet. Luctus accumsan tortor posuere ac ut [consequat semper viverra]{.yellow}. Magnis dis parturient montes nascetur ridiculus mus mauris. Risus viverra adipiscing at in tellus integer. Sit amet tellus cras adipiscing. Cras tincidunt lobortis feugiat vivamus at augue eget arcu. Malesuada fames ac turpis egestas. Erat velit scelerisque in dictum non consectetur. Arcu bibendum at varius vel pharetra vel turpis nunc. [Arcu felis bibendum ut tristique et egestas quis ipsum. Lectus proin nibh nisl condimentum id venenatis]{.red}. In egestas erat imperdiet sed euismod nisi porta. Ut eu sem integer vitae justo. Augue mauris augue neque gravida in fermentum. [Ut etiam sit amet nisl purus]{.green}. Eget sit amet tellus cras adipiscing. Sociis natoque penatibus et magnis dis parturient montes nascetur. Tristique senectus et netus et malesuada fames ac.
+
+
+
+Aliquet risus feugiat in ante. Condimentum vitae sapien pellentesque habitant morbi tristique. Sollicitudin nibh sit amet commodo nulla facilisi. Erat velit scelerisque in dictum non consectetur a erat. Id interdum velit laoreet id donec ultrices. Sit amet commodo nulla facilisi nullam vehicula. Pulvinar sapien et ligula ullamcorper malesuada proin. Odio eu feugiat pretium nibh. Tincidunt vitae semper quis lectus nulla at volutpat diam ut. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Rhoncus est pellentesque elit ullamcorper.
+
+# Chapter 4
+
+Eu non diam phasellus vestibulum lorem. Nunc sed id semper risus. Facilisi nullam vehicula ipsum a arcu cursus vitae. Adipiscing tristique risus nec feugiat in fermentum. Dignissim suspendisse in est ante in nibh mauris cursus mattis. Bibendum ut tristique et egestas quis ipsum suspendisse. Et netus et malesuada fames ac turpis egestas integer eget. 
+
+## Chapter 4-1
+
+Eu augue ut lectus arcu bibendum at. Nisi scelerisque eu ultrices vitae auctor eu augue ut. Massa sapien faucibus et molestie ac feugiat. Est placerat in egestas erat imperdiet sed euismod. Mi tempus imperdiet nulla malesuada pellentesque elit. 
+
+
+### Chapter 4-1-1
+
+Semper viverra nam libero justo laoreet sit amet. Viverra aliquet eget sit amet. Vitae semper quis lectus nulla at volutpat diam ut. Cras semper auctor neque vitae. Tortor at risus viverra adipiscing at in.
+
+Vulputate odio ut enim blandit. Ac tincidunt vitae semper quis lectus nulla. Sit amet cursus sit amet dictum sit amet justo donec. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat. Ante metus dictum at tempor commodo. Vitae nunc sed velit dignissim sodales ut eu sem integer. Et odio pellentesque diam volutpat commodo sed egestas egestas fringilla. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Eu non diam phasellus vestibulum lorem. Donec et odio pellentesque diam volutpat commodo sed.
+
+# Chapter 5
+
+In vitae turpis massa sed elementum tempus egestas sed sed. Est velit egestas dui id ornare arcu odio ut. Nec feugiat in fermentum posuere urna nec tincidunt. Eget nunc scelerisque viverra mauris. Varius morbi enim nunc faucibus a pellentesque sit amet. Proin nibh nisl condimentum id venenatis a condimentum. Volutpat ac tincidunt vitae semper quis lectus nulla at volutpat. Urna id volutpat lacus laoreet non curabitur. Amet venenatis urna cursus eget nunc scelerisque viverra mauris. Morbi tincidunt augue interdum velit.
+
+## Chapter 5-1
+
+Scelerisque in dictum non consectetur a erat nam at lectus. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Vel elit scelerisque mauris pellentesque pulvinar pellentesque. Eros donec ac odio tempor orci dapibus ultrices in iaculis. Convallis tellus id interdum velit laoreet id donec ultrices. Sodales ut eu sem integer. Vulputate dignissim suspendisse in est ante. Lobortis feugiat vivamus at augue. Massa massa ultricies mi quis hendrerit dolor magna eget. Faucibus et molestie ac feugiat sed. Ut pharetra sit amet aliquam. Diam donec adipiscing tristique risus nec feugiat in. Tincidunt augue interdum velit euismod in pellentesque massa placerat duis. Pellentesque eu tincidunt tortor aliquam. Massa id neque aliquam vestibulum morbi. Semper auctor neque vitae tempus. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Velit egestas dui id ornare arcu odio ut sem nulla.
+
+Viverra aliquet eget sit amet tellus cras adipiscing enim. Sed enim ut sem viverra aliquet. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Cursus risus at ultrices mi tempus imperdiet nulla. Nunc scelerisque viverra mauris in aliquam sem fringilla ut. Tristique senectus et netus et. Risus in hendrerit gravida rutrum quisque non tellus orci ac. Fusce ut placerat orci nulla pellentesque. Arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Scelerisque eu ultrices vitae auctor. Purus viverra accumsan in nisl nisi scelerisque eu.
+
+# Upcoming updates
+
+  - New themes
+  - Image and table downloading
+  - One click conversion to PDF
+  - More in-text features
+
+Report issues - https://github.com/oobianom/sciRmdTheme
+ 
+# More random texts with highlighting
+
+Nascetur [ridiculus mus mauris vitae. Pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna. Pellentesque dignissim enim sit amet venenatis urna cursus eget. Tristique senectus et netus et malesuada fames ac turpis. Pharetra sit amet aliquam id diam maecenas. Porttitor eget dolor morbi non arcu risus. Amet aliquam id diam maecenas ultricies mi eget mauris. Aliquet sagittis id consectetur purus. Tellus molestie nunc non blandit massa enim nec dui. At ultrices mi tempus imperdiet nulla malesuada. Interdum varius sit amet mattis vulputate enim. Metus dictum at tempor commodo ullamcorper a lacus vestibulum sed. Odio ut sem nulla pharetra diam. Et leo duis ut diam quam nulla porttitor massa.]{.yellow} Urna neque viverra justo nec. Mattis pellentesque id nibh tortor id aliquet lectus. At augue eget arcu dictum varius duis at consectetur lorem. Eu augue ut lectus arcu bibendum at varius vel.
+
+Adipiscing elit ut aliquam purus. Vitae proin sagittis nisl rhoncus mattis rhoncus urna neque. Sed libero enim sed faucibus turpis in eu mi bibendum. Commodo quis imperdiet massa tincidunt. Luctus venenatis lectus magna fringilla urna. Dictum at tempor commodo ullamcorper. Tortor vitae purus faucibus ornare suspendisse sed. Viverra adipiscing at in tellus. Pellentesque elit eget gravida cum sociis natoque penatibus et magnis. Odio ut sem nulla pharetra. Sapien eget mi proin sed libero enim sed. Vel eros donec ac odio. Imperdiet proin fermentum leo vel orci porta. Pharetra magna ac placerat vestibulum lectus. Cursus in hac habitasse platea. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus. Ipsum faucibus vitae aliquet nec ullamcorper sit.
+
+Amet aliquam id diam maecenas ultricies mi eget mauris pharetra. Tortor at auctor urna nunc id. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien. Etiam sit amet nisl purus in mollis nunc sed. Cras sed felis eget velit. Elementum pulvinar etiam non quam lacus suspendisse faucibus interdum posuere. Vitae elementum curabitur vitae nunc. Non enim praesent elementum facilisis. Mollis nunc sed id semper risus in hendrerit gravida. Morbi quis commodo odio aenean.
+
+Nisi est sit amet facilisis magna etiam tempor. Erat pellentesque adipiscing commodo elit at imperdiet. Feugiat in ante metus dictum at tempor commodo ullamcorper. Integer feugiat scelerisque varius morbi enim. Tortor at risus viverra adipiscing at in tellus integer. Sagittis orci a scelerisque purus semper. Neque vitae tempus quam pellentesque nec. Neque ornare aenean euismod elementum. Est ultricies integer quis auctor elit sed vulputate mi sit. Sociis natoque penatibus et magnis. Mauris a diam maecenas sed enim. Malesuada proin libero nunc consequat interdum varius sit. Lorem ipsum dolor sit amet consectetur adipiscing elit pellentesque habitant. Dapibus ultrices in iaculis nunc sed augue. Tristique sollicitudin nibh sit amet commodo nulla facilisi.
+
+A arcu cursus vitae congue mauris rhoncus. Eu ultrices vitae auctor eu augue ut lectus arcu bibendum. Ultrices eros in cursus turpis massa tincidunt dui ut. Lobortis feugiat vivamus at augue eget arcu dictum varius. Euismod elementum nisi quis eleifend. Penatibus et magnis dis parturient montes. Ut pharetra sit amet aliquam. Risus in hendrerit gravida rutrum quisque. Eu consequat ac felis donec et odio pellentesque. Habitasse platea dictumst quisque sagittis purus. Rutrum quisque non tellus orci ac. Ut etiam sit amet nisl purus in. Malesuada pellentesque elit eget gravida. Nunc id cursus metus aliquam. Cursus in hac habitasse platea dictumst quisque sagittis purus. Eget lorem dolor sed viverra ipsum nunc aliquet. Duis ultricies lacus sed turpis tincidunt id aliquet risus.
+
+Ac orci phasellus egestas tellus rutrum tellus. Nunc non blandit massa enim nec. Sed viverra ipsum nunc aliquet bibendum. Adipiscing tristique risus nec feugiat in. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras tincidunt. Velit scelerisque in dictum non. Pellentesque habitant morbi tristique senectus et netus. Nunc vel risus commodo viverra maecenas. Diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Purus in massa tempor nec feugiat nisl pretium fusce. Pharetra massa massa ultricies mi quis hendrerit dolor magna. Rutrum tellus pellentesque eu tincidunt tortor aliquam. Porta lorem mollis aliquam ut porttitor leo a diam sollicitudin.
+
+Sit amet nisl suscipit adipiscing bibendum est ultricies integer. Et leo duis ut diam quam nulla porttitor massa. Pulvinar neque laoreet suspendisse interdum consectetur libero id. Adipiscing elit pellentesque habitant morbi tristique senectus et. Amet nisl suscipit adipiscing bibendum est ultricies integer. Ac tincidunt vitae semper quis lectus nulla at volutpat diam. Donec ac odio tempor orci dapibus. Sed blandit libero volutpat sed cras ornare. Consequat interdum varius sit amet mattis vulputate enim. Vulputate enim nulla aliquet porttitor lacus luctus accumsan. Morbi leo urna molestie at elementum eu. Cras adipiscing enim eu turpis egestas pretium aenean. Faucibus interdum posuere lorem ipsum dolor sit amet. Ut eu sem integer vitae justo eget magna fermentum iaculis. Dis parturient montes nascetur ridiculus mus. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Dictum at tempor commodo ullamcorper a lacus vestibulum sed. Aenean sed adipiscing diam donec adipiscing tristique. Nunc sed velit dignissim sodales ut.
+
+Arcu felis bibendum ut tristique et egestas quis ipsum. Porta lorem mollis aliquam ut porttitor leo a. Nunc scelerisque viverra mauris in aliquam sem fringilla. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Suspendisse ultrices gravida dictum fusce ut. Imperdiet dui accumsan sit amet nulla. Cras tincidunt lobortis feugiat vivamus at. Lorem mollis aliquam ut porttitor leo. Faucibus in ornare quam viverra orci sagittis. Nisi scelerisque eu ultrices vitae auctor. Sit amet porttitor eget dolor. Gravida in fermentum et sollicitudin ac. Praesent elementum facilisis leo vel. Lacus suspendisse faucibus interdum posuere lorem ipsum.
+
+Pretium lectus quam id leo in vitae. Feugiat vivamus at augue eget. Egestas tellus rutrum tellus pellentesque eu. Amet dictum sit amet justo donec enim diam. Lorem sed risus ultricies tristique. Donec et odio pellentesque diam volutpat commodo sed. Nec dui nunc mattis enim ut tellus elementum. Vulputate odio ut enim blandit volutpat maecenas volutpat. Urna nunc id cursus metus aliquam eleifend mi in. Amet massa vitae tortor condimentum lacinia quis vel eros. Convallis aenean et tortor at risus viverra adipiscing at. Sit amet volutpat consequat mauris.
