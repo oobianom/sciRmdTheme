@@ -58,8 +58,7 @@ View demo: https://coursewhiz.org/mainsite/samples/sample3.html
 Download Rmd: https://coursewhiz.org/mainsite/samples/sample3.Rmd
 
 
-# More information coming soon after publishing to CRAN
+## By Obinna Obianom 
 
 ![](https://coursewhiz.org/mainsite/logo2x.png)
 
-ETA July
