@@ -2,7 +2,7 @@
 
 Version: [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/sciRmdTheme)](https://cran.r-project.org/package=sciRmdTheme)
 
-Downloads: [![](https://cranlogs.r-pkg.org/badges/sciRmdTheme)](https://cran.r-project.org/package=sciRmdTheme)
+Downloads: [![](https://cranlogs.r-pkg.org/downloads/total/sciRmdTheme)](https://cranlogs.r-pkg.org/downloads/total/sciRmdTheme)
 
 
 # Installation and Usage
