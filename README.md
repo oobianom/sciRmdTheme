@@ -1,5 +1,10 @@
 # Official sciRmdTheme package: Rmarkdown Themes for Scientific Writing
 
+Version: [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/sciRmdTheme)](https://cran.r-project.org/package=sciRmdTheme)
+
+Downloads: [![](https://cranlogs.r-pkg.org/badges/sciRmdTheme)](https://cran.r-project.org/package=sciRmdTheme)
+
+
 # Installation and Usage
 
 ## Install from CRAN
@@ -59,5 +64,5 @@ Download Rmd: https://coursewhiz.org/mainsite/samples/sample3.Rmd
 
  
 
-![](https://coursewhiz.org/mainsite/logo2x.png){width="100%"}
+![](https://coursewhiz.org/mainsite/logo2x.png)
 
