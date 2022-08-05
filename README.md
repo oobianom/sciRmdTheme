@@ -1,7 +1,6 @@
-# R package name: sciRmdTheme
-## Rmarkdown Themes for Scientific Writing
+# Official sciRmdTheme package: Rmarkdown Themes for Scientific Writing
 
-# Install and load
+# Installation and Usage
 
 ## Install from CRAN
 ` install.packages("sciRmdTheme") `
@@ -58,7 +57,7 @@ View demo: https://coursewhiz.org/mainsite/samples/sample3.html
 Download Rmd: https://coursewhiz.org/mainsite/samples/sample3.Rmd
 
 
-## By Obinna Obianom 
+ 
 
-![](https://coursewhiz.org/mainsite/logo2x.png)
+![](https://coursewhiz.org/mainsite/logo2x.png){width="100%"}
 

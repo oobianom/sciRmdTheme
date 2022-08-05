@@ -1,7 +1,7 @@
 Package: sciRmdTheme
 Type: Package
 Title: Upgraded 'Rmarkdown' Themes for Scientific Writing
-Version: 0.1
+Version: 0.2
 Author: Obinna Obianom
 Maintainer: Obinna Obianom <idonshayo@gmail.com>
 Description: A set of 'Rmarkdown' themes for creating scientific and professional documents. Simple interface with features to ease navigation across the page and sub-pages.

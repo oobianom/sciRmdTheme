@@ -2,8 +2,8 @@
 
 ## New Features
 
-* Two new templates 
-* 
+* Fix the insertion of selected TOC icons upon load 
+* Fix the gray background demarcation
 
 # sciRmdTheme 0.1
 

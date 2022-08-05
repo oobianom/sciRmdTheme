@@ -1,6 +1,29 @@
-$(window).load(function () {
-    $('.list-group-item').prepend('<b>listgroupixon&emsp;</b>');
+function waitForElm(selector) {
+    return new Promise(resolve => {
+        if (document.querySelector(selector)) {
+            return resolve(document.querySelector(selector));
+        }
 
+        const observer = new MutationObserver(mutations => {
+            if (document.querySelector(selector)) {
+                resolve(document.querySelector(selector));
+                observer.disconnect();
+            }
+        });
+
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+    });
+}
+/*wait for elements of the TOC to show*/
+wFEelm = '.list-group-item';
+waitForElm(wFEelm).then((elm) => {
+  $(wFEelm).prepend('<b>listgroupixon&emsp;</b>');
+});
+
+document.addEventListener("DOMContentLoaded",function () {
 
     /*elements with images*/
 
