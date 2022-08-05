@@ -26,7 +26,7 @@ flex-wrap: wrap;
 margin-right: -15px;
 margin-left: -15px;
 }
-body > .row-fluid:first-child, body > .main-container > .row:first-child{
+body > .row-fluid:first-child{
 margin-top: 100px;
 }
 .row-fluid:first-child > div:first-child, body > .main-container > .row:first-child > div:first-child{
