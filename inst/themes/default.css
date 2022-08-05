@@ -17,7 +17,7 @@ box-sizing: border-box;
 div {
 display: block;
 }
-.row-fluid{
+.row-fluid, .main-container > .row{
 display: -ms-flexbox;
 display: -webkit-box;
 display: flex;
@@ -26,15 +26,15 @@ flex-wrap: wrap;
 margin-right: -15px;
 margin-left: -15px;
 }
-body > .row-fluid:first-child{
+body > .row-fluid:first-child, body > .main-container > .row:first-child{
 margin-top: 100px;
 }
-.row-fluid:first-child > div:first-child{
-background: -o-linear-gradient(left, #fff 50%, #f8f8f8 100%);
-background: -webkit-gradient(linear, left top, right top, color-stop(50%, #fff), to(#f8f8f8));
-background: linear-gradient(to right, #fff 50%, #f8f8f8 100%);
-border:0px solid gray;
-border-right:1px solid #ccc;
+.row-fluid:first-child > div:first-child, body > .main-container > .row:first-child > div:first-child{
+background: -o-linear-gradient(left, #fff 50%, #f8f8f8 100%)!important;
+background: -webkit-gradient(linear, left top, right top, color-stop(50%, #fff), to(#f8f8f8))!important;
+background: linear-gradient(to right, #fff 50%, #f8f8f8 100%)!important;
+border:0px solid gray!important;
+border-right:1px solid #ccc!important;
 -webkit-box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 23%);
 box-shadow: 1px 1px 10px 1px rgb(0 0 0 / 23%); /* right and left only */
 -webkit-box-shadow: 5px 1px 11px -5px rgb(0 0 0 / 23%);
