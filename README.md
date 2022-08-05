@@ -2,9 +2,9 @@
 
 __Official docs site__: [scirmdtheme.obi.obianom.com](https://scirmdtheme.obi.obianom.com)
 
-CRAN Deployed Version: [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/sciRmdTheme)](https://cran.r-project.org/package=sciRmdTheme)
+__CRAN Deployed Version__: [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/sciRmdTheme)](https://cran.r-project.org/package=sciRmdTheme)
 
-Downloads: [![](https://cranlogs.r-pkg.org/badges/sciRmdTheme)](https://cran.r-project.org/package=sciRmdTheme)
+__Downloads__: [![](https://cranlogs.r-pkg.org/badges/grand-total/sciRmdTheme)](https://cran.r-project.org/package=sciRmdTheme)
 
 
 # Installation and Usage
